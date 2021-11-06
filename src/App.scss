@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Amarante';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./Assets/Fonts/amarante-v10-latin-regular.woff2') format('woff2'),
+       url('./Assets/Fonts/amarante-v10-latin-regular.woff') format('woff'); 
+}
+
+h1{
+  font-family: 'Amarante', monospace;
+  &:hover{
+    background-color: red;
+  }
+}
+
